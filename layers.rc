@@ -12,10 +12,10 @@
 #[crate_type = "lib"];
 #[feature(managed_boxes)];
 
-extern mod std;
-
+extern mod extra;
 extern mod geom;
 extern mod opengles;
+extern mod std;
 
 #[cfg(target_os="macos")]
 extern mod core_foundation;
